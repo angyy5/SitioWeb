@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #262626;
+    font-family: sans-serif;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #181717;
+}
+
+.cs{
+    text-decoration: none;
+    color: beige;
+    }
+
+.cs:hover{
+    color: red;
+}
+
+.abrr{
+    margin-left: 1000px;
+    text-decoration: none;
+    margin-right: 3px;
+    color: beige;
+}
+
+.abrr:hover{
+    color: blue;
+}
+    
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.5rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: beige;
+    }
+
+    .cerrar-menu {
+        color: beige;
+    }
+
+    .nav {
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #181717;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+        text-decoration: none;
+        color: beige;
+    }
+
+    .nav-list li a:hover {
+        color: blue;
+    }
+
+    /*
+
+    .par1{
+        position: relative;
+
+    }
+
+   
+
+    .par1 .im1 img{
+        
+       margin-left: 65px;
+        padding: 80px 30px;
+        width: 300px;
+    }
+
+    .im11{
+       
+       position: relative;
+        padding: 80px 30px;
+        width: 300px;
+        margin-left: 300px;
+    }
+
+
+     .im21{
+       position: relative;
+        padding: 80px 30px;
+        width: 300px;
+        margin-left: 65px;
+    }
+*/ 
+    .ima{
+        width: 100px;
+        position: absolute;
+    }
+
+    h1{
+        color: beige;
+        margin-left: 600px;
+        font-size: 4rem;
+    }
+    main {
+        padding: 20px;
+      }
+      
+      .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+    
+    .menu-item {
+        width: 500px; /* Adjust width as needed */
+        height: 550px;
+        margin-bottom: 20px;
+        text-align: center;
+       /* border: 1px solid #ccc;*/
+        position: relative; /* Make the menu-item relative */
+        
+      }
+      
+      .menu-item img {
+        width: 450px;
+        height: 400px; /* Adjust height as needed */
+        margin-top: 20px;
+        margin-left: 20px;
+        object-fit: cover; /* Maintain aspect ratio and cover the container */
+        display: block; /* Make the image a block element */
+        margin-bottom: 10px; /* Add some space between the image and the content */
+      }
+      
+      
+      
+      .menu-item button {
+        background-color: #ff0000;
+        color: white;
+        font-family: sans-serif;
+        font-size: 30px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute; /* Make the button absolute */
+        bottom: 10px; /* Position the button at the bottom */
+        left: 50%; /* Center the button horizontally */
+        transform: translate(-50%, -50%); /* Center the button vertically */
+      }
+      
+   
+
+    footer{
+        display: flex;
+        align-items: center;
+        background-color: #181717;
+        }
+    
+        .taq{
+            width: 200px;
+            margin-left: 800px;
+        }
+    
+        .dere{
+            color: beige;
+        }
+    
+        .dere svg{
+            color: rgb(236, 44, 10);
+        }
+    
+        .dere small{
+            margin:0;
+         }

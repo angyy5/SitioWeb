@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+
+    background-image: url(imagenes/bu.png);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #2b2b2b;
+}
+
+.cs{
+    text-decoration: none;
+    color: beige;
+    }
+
+.cs:hover{
+    color: red;
+}
+
+.abrr{
+    margin-left: 1000px;
+    text-decoration: none;
+    margin-right: 3px;
+    color: beige;
+}
+
+.abrr:hover{
+    color: blue;
+}
+    
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.5rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: beige;
+    }
+
+    .cerrar-menu {
+        color: beige;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+        text-decoration: none;
+        color: beige;
+    }
+
+    .ima{
+        width: 100px;
+        position: absolute;
+    }
+
+    .container {
+        max-width: 500px; /* Ancho máximo del contenedor */
+        margin: 50px auto;
+        padding: 40px; /* Aumentamos el espacio interior del contenedor */
+        border-radius: 8px;
+        box-shadow: none; /* Eliminamos la sombra del contenedor */
+       /* Cambiamos el color de fondo del contenedor */
+    }
+
+   .container h2,h1{
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+
+
+label{
+color: white;
+margin-right: 30px;
+font-size: 25px;
+}
+.k{
+width: 900px;
+height: 50px;
+color: #000;
+background-color: #171717;
+border-radius: 10px;
+border-color: white;
+
+
+}
+
+
+
+.con{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+text-align: center;
+}
+.boton{
+background-color: black;
+color: white;
+width: 200px;
+height: 30px;
+border-radius: 30px;
+border-color: white;
+border-style: solid;
+}
+
+
+
+    .dere{
+        color: beige;
+    }
+
+    .dere svg{
+        color: rgb(236, 44, 10);
+    }
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #2b2b2b;
+    
+    }
+
+    .taq{
+        width: 200px;
+        margin-left: 800px;
+    }
+
+    .dere small{
+        margin:0;
+     }
+

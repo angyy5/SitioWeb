@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: #262626;
+  
+    font-family: sans-serif;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #181717;
+}
+
+.cs{
+    text-decoration: none;
+    color: beige;
+    }
+
+.cs:hover{
+    color: red;
+}
+
+.abrr{
+    margin-left: 1000px;
+    text-decoration: none;
+    margin-right: 3px;
+    color: beige;
+}
+
+.abrr:hover{
+    color: blue;
+}
+    
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.5rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: beige;
+    }
+
+    .cerrar-menu {
+        color: beige;
+    }
+
+    .nav {
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #181717;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+        text-decoration: none;
+        color: beige;
+    }
+
+    .nav-list li a:hover {
+        color: blue;
+    }
+
+    .ima{
+        width: 100px;
+        position: absolute;
+    }
+
+    h1{
+        color: beige;
+       text-align: center;
+        font-size: 4rem;
+    }
+
+    .card-container {
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 65vh; 
+        margin-right: auto;
+        justify-content: space-around;
+        z-index: 2;
+    }
+
+    .card{
+    margin-left: 50px;
+    border-radius: 10%;
+    margin-top: 35px;
+   }
+
+   .card-body {
+    margin-top: 0;
+    border-radius: 7px; 
+    background-color: beige;
+    width: 230px;
+    height: 30px;
+    
+  }
+
+  .card-text{
+    text-align: center;
+  }
+
+  .texto{
+    display: flex;
+  justify-content: center;
+ }
+
+  .texto a{
+  font-size: 100px;
+  color: white;
+  }
+
+    footer{
+        display: flex;
+        align-items: center;
+        background-color: #181717;
+        position: relative; /* Hacer del footer absoluto */
+        bottom: 0; /* Posicionar el footer en la parte inferior */
+        left: 0; /* Posicionar el footer en el borde izquierdo */
+        width: 100%; /* Hacer que el footer abarque todo el ancho */
+        margin-top: 80px;
+          
+        }
+    
+        .taq{
+            width: 200px;
+            margin-left: 800px;
+        }
+    
+        .dere{
+            color: beige;
+        }
+    
+        .dere svg{
+            color: rgb(236, 44, 10);
+        }
+    
+        .dere small{
+            margin:0;
+         }

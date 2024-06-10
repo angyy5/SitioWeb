@@ -1,0 +1,22 @@
+body {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-section {
+    flex: 1; /* Allocate equal space for the image */
+}
+
+.text-section {
+    background-color: #ff9900; /* Orange background */
+    padding: 20px;
+    text-align: center;
+}

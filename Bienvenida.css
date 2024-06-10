@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.titulo{
+   width: 100%;
+   height: 300px;
+   justify-content: center;
+    display: flex;
+   align-items:center;
+   text-align: center;
+    color: whitesmoke;
+    font-family: "Elephant Pro", Franklin Gothic Heavy;
+   font-size: 3em;
+     position:absolute; /* con "absolute" se le quito el fondo gris*/
+    z-index: 2;
+    
+   
+}
+
+.logo{
+width: 200px;
+position: absolute;
+z-index: 2;
+margin-top: 300px;
+margin-left: 600px;
+}
+
+.tn{
+width: 340px;
+margin-top: 0%;
+position: absolute;
+z-index: 2;
+margin-left: 50px;
+}
+
+.dn{
+ width: 345px;
+margin-top: 2%;
+margin-left: 1000px;
+position: absolute;
+z-index: 2;
+
+}
+
+/*
+.taco1{
+    width: 280px;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.taco2{
+    width: 250px;
+    position:absolute;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.taco3{
+    width: 250px;
+    position:absolute;
+    margin-top: 600px;
+}
+*/
+body{
+    height:100vh ;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+   
+}
+#nose{
+   min-width: 100vh; 
+   position: relative;
+}
+
+video{
+    min-height: 100vh;
+    min-width: 100vw;
+   
+}
+.fondov{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2b2b2b;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+.menu1{
+    position: relative;
+    z-index: 2;
+    display:inline-block ;
+    color: blue;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+.menu1:hover{
+    background-color: rgb(173, 164, 163);
+}
+nav{
+    background: #2b2b2b;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width: 600px){
+    .facet_sidebar{
+        display: none;
+    }
+}
+
